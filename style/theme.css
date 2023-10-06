@@ -1,0 +1,95 @@
+
+* {
+	font-family: arial, sans-serif;
+	color: #777;
+}
+
+body {
+	background: #000;
+}
+
+/****************************************/
+
+nav.top {
+	background: radial-gradient(circle 100px at center, #444 10%, #333 1000%);
+}
+nav.top h3 {
+	/*color: #999;*/
+	text-shadow: 0 0 6px #000;
+}
+nav.top div.redes button {
+	background: none;
+	border: none;
+	color: #AAA;
+}
+nav.top div.redes button:hover {
+	color: #FFF;
+	text-shadow: 0 0 2px #FFF;
+	cursor: pointer;
+}
+nav.top div.redes button img:hover {
+	filter: drop-shadow(0 0 2px #FFF);
+}
+nav.top div.redes button img:active {
+	filter: drop-shadow(0 0 2px #000);
+}
+
+/****************************************/
+
+nav.bottom {
+	background: radial-gradient(circle 100px at center, #333 10%, #222 1000%);
+	/*border-bottom: 4px solid #222;*/
+	box-shadow: inset 0 4px 4px #262626;
+}
+nav.bottom h3.header {
+	text-align: center;
+	color: #AAA;
+}
+nav.bottom button {
+	background: none;
+	border: none;
+	color: #AAA;
+}
+nav.bottom button:hover {
+	color: #FFF;
+	font-size: 14px;
+	text-shadow: 0 0 2px #FFF;
+	cursor: pointer;
+}
+nav.bottom button:active {
+	color: #777;
+	text-shadow: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	filter: drop-shadow(0 0 8px #000);
+}
+
+/****************************************/
+
+header {
+	text-align: center;
+	background-image: url('../public/imgs/fondo_02.gif');
+	background-repeat: no-repeat;
+	background-position-y: -400px;
+	background-size: 100%;
+	box-shadow: inset 0 4px 20px #000;
+}
+header div.contenido img {
+	filter: drop-shadow(0 0 4px #000);
+}
+
+main {}
+aside {}
+section {}
+
+div.post {
+	border-radius: 15px;
+	background: rgba(255,255,255,0.01);
+}
+
+/****************************************/
+
+footer {
+	background: #CCC;
+	color: #AAA;
+}
