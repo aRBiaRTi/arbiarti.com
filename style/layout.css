@@ -38,7 +38,6 @@ nav.top div.redes {
 nav.bottom {
 	display: grid;
 	grid-auto-flow: column;
-	grid-template-columns: 600px repeat(4, 1fr);
 	min-height: 48px;
 }
 
