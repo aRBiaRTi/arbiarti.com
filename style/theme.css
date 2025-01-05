@@ -14,7 +14,7 @@ nav.top {
 	background: radial-gradient(circle 100px at center, #444 10%, #333 1000%);
 }
 nav.top h3 {
-	/*color: #999;*/
+	color: #BBB;
 	text-shadow: 0 0 6px #000;
 }
 nav.top div.redes button {
@@ -90,6 +90,18 @@ div.post {
 /****************************************/
 
 footer {
-	background: #CCC;
-	color: #AAA;
+	background: #BBB;
+	color: #333;
+}
+
+footer div {
+	background-color: #CCC;
+	border-radius: 10px;
+}
+
+footer li {
+	list-style: none;
+}
+footer a, footer h3 {
+	color: #555;
 }

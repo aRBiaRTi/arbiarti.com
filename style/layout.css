@@ -123,4 +123,17 @@ footer.contenido {
 /****************************************/
 footer {
 	min-height: 400px;
+	padding: 5px;
+
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+footer div {
+	margin: 5px;
+	padding: 15px;
+}
+
+footer ul {
+	margin-bottom: 15px;
 }
