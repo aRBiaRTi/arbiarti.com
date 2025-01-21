@@ -78,6 +78,11 @@ header div.contenido img {
 	filter: drop-shadow(0 0 4px #000);
 }
 
+aside {
+	border-radius: 10px;
+	background-color: #211;
+}
+
 section {
 	display: grid;
 	gap: 10px;
@@ -85,24 +90,14 @@ section {
 	border-radius: 10px;
 }
 
-aside {
+section > div {
+	background-color: #121212;
 	border-radius: 10px;
-	background-color: #211;
 }
 
 div.sobre_mi {
 	border-radius: 10px;
 	background-color: #2A1A1A;
-}
-
-div.exp_laboral {
-	background-color: #121212;
-	border-radius: 10px;
-}
-
-div.formacion {
-	background-color: #121212;
-	border-radius: 10px;
 }
 
 /****************************************/
