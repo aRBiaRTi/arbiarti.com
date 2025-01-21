@@ -122,7 +122,6 @@ footer.contenido {
 }
 /****************************************/
 footer {
-	min-height: 400px;
 	padding: 5px;
 
 	display: grid;
