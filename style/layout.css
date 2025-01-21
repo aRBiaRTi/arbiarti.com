@@ -54,71 +54,47 @@ header {
 }
 /***************************************/
 main {
+
 	padding-left: 10%;
 	padding-right: 10%;
-	display: grid;
-	grid-template-columns: 250px 1fr;
-	align-content: start;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
-}
-main aside {
-	padding: 8px;
-	grid-column: 1 / 2;
-}
-/****************************************/
-main section.contenido {
-	min-height: 2000px;
-	grid-gap: 8px;
-	padding: 8px;
 	display: grid;
-	grid-column: 2 / 3;
+	gap: 10px;
+	grid-template-columns: 250px 1fr;
+	grid-auto-flow: column;
+	align-items: stretch;
 }
 /****************************************/
-nav.contenido {
-	grid-column: 1 / 2;
-	min-height: 50px;
-}
-/****************************************/
-div.post {
-	height: 200px;
-	padding: 20px 20px;
+aside {
+	padding: 10px;
 	display: grid;
-	grid-template-rows: 50px 1fr;
-	grid-gap: 10px;
+	gap: 10px;
+	align-items: start;
 }
-div.post img {
-	width: 200px;
-	height: 200px;
-	grid-row: 1 / 3 ;
+
+section {
+	padding: 10px
 }
-div.post div.header {
-	height: 50px;
-	padding: 0;
+
+div.sobre_mi {
+	padding: 10px;
 	display: grid;
-	grid-gap: 0;
+	gap: 10px;
+	align-items: start;
 }
-div.post div.header h2 {
-	padding: 0;
-	margin: 0;
+
+div.exp_laboral {
+	padding: 10px;
+	display: grid;
+	gap: 10px;
 }
-div.post div.datos {
-	font-size: 12px;
-}
-div.post p.descripcion {
-	padding: 4px;
-	grid-column: 2 / 3;
-}
-div.post div.footer {
-	padding: 4px;
-}
-div.post div.comentarios {
-	font-size: 12px;
-	padding: 4px;
-}
-/****************************************/
-footer.contenido {
-	background: none;
-	min-height: 50px;
+
+div.formacion {
+	padding: 10px;
+	display: grid;
+	gap: 10px;
 }
 /****************************************/
 footer {

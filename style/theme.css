@@ -78,13 +78,31 @@ header div.contenido img {
 	filter: drop-shadow(0 0 4px #000);
 }
 
-main {}
-aside {}
-section {}
+section {
+	display: grid;
+	gap: 10px;
+	background-color: #0A0A0A;
+	border-radius: 10px;
+}
 
-div.post {
-	border-radius: 15px;
-	background: rgba(255,255,255,0.01);
+aside {
+	border-radius: 10px;
+	background-color: #211;
+}
+
+div.sobre_mi {
+	border-radius: 10px;
+	background-color: #2A1A1A;
+}
+
+div.exp_laboral {
+	background-color: #121212;
+	border-radius: 10px;
+}
+
+div.formacion {
+	background-color: #121212;
+	border-radius: 10px;
 }
 
 /****************************************/
