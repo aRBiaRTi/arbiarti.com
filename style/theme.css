@@ -8,6 +8,10 @@ body {
 	background: #000;
 }
 
+li {
+	list-style-type: none;
+}
+
 /****************************************/
 
 nav.top {
@@ -83,6 +87,11 @@ aside {
 	background-color: #211;
 }
 
+aside > div {
+	border-radius: 10px;
+	background-color: #2A1A1A;
+}
+
 section {
 	display: grid;
 	gap: 10px;
@@ -93,11 +102,6 @@ section {
 section > div {
 	background-color: #121212;
 	border-radius: 10px;
-}
-
-div.sobre_mi {
-	border-radius: 10px;
-	background-color: #2A1A1A;
 }
 
 /****************************************/

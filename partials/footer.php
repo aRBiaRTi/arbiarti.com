@@ -3,8 +3,8 @@
 		<div>
 			<h3>aRBiaRTi</h3>
 			<ul>
+				<li><a href="/index.php">Inicio</a></li>
 				<li><a href="/portafolio.php">Portafolio</a></li>
-				<li><a href="/sobremi.php">Sobre mí</a></li>
 			</ul>
 		</div>
 		<div>

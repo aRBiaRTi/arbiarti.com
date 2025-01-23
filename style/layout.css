@@ -72,6 +72,20 @@ aside {
 	display: grid;
 	gap: 10px;
 	align-items: start;
+	align-content: start;
+}
+
+aside > div {
+	padding: 10px;
+	display: grid;
+	gap: 10px;
+}
+
+.sobre_mi {
+	padding: 10px;
+	display: grid;
+	gap: 10px;
+	align-items: start;
 }
 
 section {
@@ -84,12 +98,6 @@ section > div {
 	gap: 10px;
 }
 
-div.sobre_mi {
-	padding: 10px;
-	display: grid;
-	gap: 10px;
-	align-items: start;
-}
 /****************************************/
 footer {
 	padding: 5px;
