@@ -8,8 +8,7 @@
 <body>
 
 	<?php
-	require_once("partials/nav_top.php");
-	require_once("partials/nav_bottom.php");
+	require_once("partials/nav.php");
 	require_once("partials/header.php");
 	?>
 
