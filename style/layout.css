@@ -8,11 +8,18 @@ body {
 }
 
 /****************************************/
+nav.main {
+	width: 100%;
+	position: fixed;
+	display: grid;
+	grid-auto-flow: row;
+}
 
 nav.top {
+	height: 30px;
 	display: grid;
-	grid-template-columns: 250px 1fr 400px;
-	height: 40px;
+	grid-template-columns: 250px 400px;
+	justify-content: space-between;
 }
 nav.top h3 {
 	display: grid;
@@ -20,9 +27,8 @@ nav.top h3 {
 	justify-content: center;
 }
 nav.top div.redes button {
-	margin-top: 6px;
+	margin-top: 2px;
 	margin-right: 16px;
-
 }
 nav.top div.redes button img {
 	width: 25px;
@@ -38,7 +44,7 @@ nav.top div.redes {
 nav.bottom {
 	display: grid;
 	grid-auto-flow: column;
-	min-height: 48px;
+	min-height: 37px;
 }
 
 nav.bottom h3.header {
@@ -48,21 +54,19 @@ nav.bottom h3.header {
 /****************************************/
 header {
 	display: grid;
-	height: 300px;
 	justify-content: center;
 	align-content: end;
 }
+header > img {
+	width: 1fr;
+}
+
 /***************************************/
 main {
-
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding: 10px;
 
 	display: grid;
 	gap: 10px;
-	grid-template-columns: 250px 1fr;
 	grid-auto-flow: column;
 	align-items: stretch;
 }
@@ -79,17 +83,13 @@ aside > div {
 	padding: 10px;
 	display: grid;
 	gap: 10px;
-}
-
-.sobre_mi {
-	padding: 10px;
-	display: grid;
-	gap: 10px;
 	align-items: start;
 }
-
+/****************************************/
 section {
-	padding: 10px
+	padding: 10px;
+	display: grid;
+	grid-auto-flow: row;
 }
 
 section > div {
@@ -98,7 +98,30 @@ section > div {
 	gap: 10px;
 }
 
+section > div > img {
+	width: 100%;
+}
+
+section > div.exp > div {
+	display: grid;
+	gap: 10px;
+	grid-auto-flow: column;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: stretch;
+	justify-items: stretch;
+}
+section > div.exp > div > img {
+	grid-column: 1/span 2;
+	width: 100%;
+	min-width: 0;
+	max-width: 500px;
+}
+section > div.exp > div > iframe {
+	min-width: 0;
+}
+
 /****************************************/
+
 footer {
 	padding: 5px;
 
@@ -113,4 +136,58 @@ footer div {
 
 footer ul {
 	margin-bottom: 15px;
+}
+
+/****************************************/
+
+@media (max-width: 1366px) {
+	main {
+		grid-template-columns: repeat(10, 1fr);
+	}
+	aside {
+		grid-column: 2/4;
+	}
+	section {
+		grid-column: 4/10;
+	}
+}
+
+@media (max-width: 1080px) {
+	main {
+		grid-template-columns: repeat(8, 1fr);
+	}
+	aside {
+		grid-column: 1/3;
+	}
+	section {
+		grid-column: 3/9;
+	}
+}
+@media (max-width: 720px) {
+	nav.top {
+		padding-left: 20px;
+		padding-right: 20px;
+		grid-template-columns: 1fr;
+		height: 80px;
+	}
+	nav.top h3 {
+		display: none;
+	}
+	nav.top div.redes button img {
+		width: 40px;
+		height: 40px;
+	}
+	main {
+		grid-auto-flow: row;
+		grid-template-columns: 1fr;
+	}
+	aside {
+		grid-column: 1 / 2;
+	}
+	section {
+		grid-column: 1 / 2;
+	}
+	footer {
+		grid-template-columns: 1fr;
+	}
 }
