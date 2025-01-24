@@ -32,6 +32,13 @@
 					<li>- Auditorías en seguridad informática</li>
 				</ul>
 			</div>
+			<div>
+				<h3>CONTACTO</h3>
+				<ul>
+					<li>rbrt.nznz.vls@gmail.com</li>
+					<li>667 747 7501</li>
+				</ul>
+			</div>
 		</aside>
 		<section>
 			<div style="display:grid; justify-items: start; gap: 10px;">
